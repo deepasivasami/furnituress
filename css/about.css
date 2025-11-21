@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #B1B5B9; */
+    /* color: #000000; */
+    /* color: #3B0000; */
+}
+.selv{
+    /* border: 1px solid green; */
+   height: 80vh;
+   width: 100%;
+   object-fit: cover;
+  
+}
+.selv video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.selv .abet{
+    position: absolute;
+    text-align: center;
+}
+.selv .abet h1{
+    font-size: 3rem;
+    color:chocolate;
+}
+.selv .abet p{
+    padding: 20px;
+    width: 500px;
+    font-size: 1.3rem;
+    color: #fefdfb;
+}
+.selv .abet button{
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ad {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #e1ddd6;
+    font-weight: 800;
+    height: 12vh;
+    margin-top: 5%;
+}
+.ad h1{
+    color: #dc8d05;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    margin-top: 5%;
+}
+.about .bonding{
+    /* border: 1px solid white; */
+    width: 700px;
+    /* height: 700px; */
+}
+.about .bonding h1{
+    font-size: 2.5rem;
+     font-weight: 500;
+      color: #f9990a;
+      text-align: start;
+      padding: 20px;
+}
+.about .bonding .p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: start;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding: 20px ;
+}
+.about .bonding p{
+    color: #fefdfb;
+    font-size: 1.3rem;
+    text-align: start;
+   
+    padding: 5px ;
+}
+.about .bonding span{
+    color: #f9990a;
+    padding: 20px;
+}
+.about .bonding1{
+      /* border: 1px solid white; */
+    width: 600px;
+    height: 600px;
+    animation-name: lay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-duration: 10.8s;
+    background-position: center;
+    /* border-radius: 89% 11% 96% 4% / 17% 95% 5% 83%  ; */
+    border-radius: 20px;
+    
+}
+@keyframes lay {
+    0%{
+        background-image: url("../image/Home-1-slider-img-02.jpg");
+    }
+     50%{
+        background-image:url("../image/celling.jpg") ;
+    }
+    100%{
+        background-image: url("../image/Home-1-slider-img-05.jpg");
+    }
+   
+} 
+
+.clients{
+    background-color: #B1B5B9;
+    padding: 50px;
+}
+.clients .box{
+    color: #f9990a;
+    font-size: 1.5rem;
+}
+.clients .box div i{
+    font-size: 2rem;
+    color: #3B0000;
+}
+.clients .box i{
+    font-size: 40px;
+    align-items: center;
+    margin-left: 10%;
+    padding: 20px;
+     color: #000000;
+      transition: 2s;
+
+}
+.clients .box i:hover{
+   color: #dc8d05;
+     transform: rotate(360deg);
+     transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+}
+.clients .box .per{
+     font-size: 40px;
+    align-items: center;
+    margin-left: 10%;
+    padding: 20px;
+     color: #000000;
+
+}
+.clients .box .free{
+    width: 300px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.latest .news{
+    margin-top: 10%;
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    border-radius: 20px;
+
+}
+
+.latest .news .angel .mog{
+    border: 1px solid white;
+    width: 400px;
+    height: 300px;
+     position: relative;
+    overflow: hidden;
+    transition:0.5s;
+     border-radius: 10px;
+
+}
+.latest .news .angel .mog img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     transition: 10.5s;
+}
+
+.latest .news .angel .mog .fat{
+  background-color: rgba(0, 0, 0, 0.448);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: -100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  align-items: center;
+  transition: .5s;
+}
+.latest .news .angel .fat h1{
+    font-size: 2rem;
+    color: orange;
+}
+.latest .news .angel .fat p{
+    /* color: #3B0000; */
+    color: #fefdfb;
+    /* color: rgb(230, 228, 224); */
+}
+.latest .news .angel .fat a{
+    border-radius: 20px;
+  text-decoration: none;
+  color: rgb(19, 16, 11);
+  background-color:#f9990a;
+  padding: 10px;
+   font-size: 1rem;
+  font-weight: 600;
+ 
+
+}
+.mog:hover .fat{
+    top: 20%;
+    transition: 0.5s;
+}
+.team{
+    background-color: #B1B5B9;
+    text-align: center;
+    color: #f9990a;
+    align-content: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+.team h1{
+    font-size: 3rem;
+    color: chocolate;
+}
+.classses{
+     background-color: #B1B5B9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    /* gap: 5%; */
+    margin-top: 10%;
+    padding: 50px;
+
+}
+.classses .cla{
+    /* border: 1px solid white; */
+    width: 400px;
+    height: 550px;
+    
+}
+.classses .cla .ber1{
+    width: 400px;
+    height: 300px;
+}
+.classses .cla .ber1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.classses .cla .ber2 h1{
+    color: #dc8d05;
+    text-align: center;
+    padding: 10px;
+}
+.classses .cla .ber2 p{
+    padding: 10px;
+    text-align: center;
+}
+.classses .cla .ber2 a{
+    text-decoration: none;
+   color: #dc8d05;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30%;
+    font-size: 1.3rem;
+}
+.sec{
+    margin-top: 10%;
+    background-color: #000000;
+}
+.cardslider .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardslider .card p {
+    width: 500px;
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+.cardslider .card .are{
+    color: #f9990a;
+    padding: 20px;
+}
+.cardslider .card h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: white;
+}
+.cardslider .card .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 3%;
+}
+.cardslider .card .image img{
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+}
+@media all and (max-width:768px){
+.selv .abet h1 {
+    font-size: 2rem;
+    color: chocolate;
+}
+.selv .abet p {
+    padding: 20px;
+    width: 500px;
+    font-size: 1rem;
+    color: #fefdfb;
+}
+}
+@media all and (max-width:576px){
+    .selv .abet {
+    width: 300px;
+    position: absolute;
+    text-align: center;
+}
+.selv .abet p {
+        padding: 20px;
+        width: 300px;
+        font-size: 1rem;
+        color: #fefdfb;
+    }
+    .clients .box .free {
+    width: 200px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+.latest .news .angel .mog {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px;
+}       
+.classses .cla .ber1 {
+    width: 250px;
+    height: 300px;
+}
+.cardslider .card h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+.cardslider .card p {
+    width: 300px;
+    padding: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+.about .bonding1 {
+    /* border: 1px solid white; */
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    animation-name: lay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-duration: 10.8s;
+    background-position: center;
+    /* border-radius: 89% 11% 96% 4% / 17% 95% 5% 83%; */
+    border-radius: 20px;
+}
+
+}
