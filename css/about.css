@@ -6,6 +6,9 @@
     /* color: #000000; */
     /* color: #3B0000; */
 }
+body{
+    /* background-color: #B1B5B9; */
+}
 .selv{
     /* border: 1px solid green; */
    height: 80vh;
@@ -40,17 +43,19 @@
     border-radius: 10px;
 }
 .ad {
+    /* background-color: #B1B5B9; */
     text-align: center;
     font-size: 1.8rem;
     color: #e1ddd6;
     font-weight: 800;
     height: 12vh;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 .ad h1{
     color: #dc8d05;
 }
 .about{
+    /* background-color: #B1B5B9; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -121,8 +126,13 @@
     padding: 50px;
 }
 .clients .box{
+     box-shadow: inset 0px 0px 25px rgb(162, 107, 107),0 0 40px rgb(244, 241, 241);
     color: #f9990a;
     font-size: 1.5rem;
+      background-color: rgb(212, 213, 215);
+      width: 300px;
+      height: 300px;
+      padding: 20px;
 }
 .clients .box div i{
     font-size: 2rem;
@@ -139,25 +149,24 @@
 }
 .clients .box i:hover{
    color: #dc8d05;
-     transform: rotate(360deg);
-     transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+     transform: scale(1.1);
+     transition:0.8s;
 
 }
 .clients .box .per{
+    text-align: center;
      font-size: 40px;
     align-items: center;
-    margin-left: 10%;
-    padding: 20px;
+    /* padding: 20px; */
      color: #000000;
 
 }
 .clients .box .free{
-    width: 300px;
+    width: 250px;
     color: white;
     font-size: 1rem;
-    text-align: center;
+    text-align: start;
 }
-
 
 
 
@@ -169,6 +178,7 @@
 
 
 .latest .news{
+    /* background-color: #B1B5B9; */
     margin-top: 10%;
     /* border: 1px solid blue; */
     display: flex;
@@ -198,25 +208,30 @@
      transition: 10.5s;
 }
 
-.latest .news .angel .mog .fat{
+ .mog .fat{
   background-color: rgba(0, 0, 0, 0.448);
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   position: absolute;
   bottom: -100%;
   display: flex;
   flex-direction: column;
-  gap: 5%;
-  align-items: center;
   transition: .5s;
+}
+.mog:hover .fat{
+    /* top: 10%; */
+    bottom: 0%;
+    transition: 0.5s;
 }
 .latest .news .angel .fat h1{
     font-size: 2rem;
     color: orange;
+    padding: 10px;
 }
 .latest .news .angel .fat p{
     /* color: #3B0000; */
     color: #fefdfb;
+        padding: 10px;
     /* color: rgb(230, 228, 224); */
 }
 .latest .news .angel .fat a{
@@ -224,16 +239,14 @@
   text-decoration: none;
   color: rgb(19, 16, 11);
   background-color:#f9990a;
-  padding: 10px;
    font-size: 1rem;
   font-weight: 600;
+      padding: 10px;
+      text-align: center;
  
 
 }
-.mog:hover .fat{
-    top: 20%;
-    transition: 0.5s;
-}
+
 .team{
     background-color: #B1B5B9;
     text-align: center;
