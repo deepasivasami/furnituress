@@ -2,15 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* color: #B1B5B9; */
-    /* color: #000000; */
-    /* color: #3B0000; */
+    
 }
-body{
-    /* background-color: #B1B5B9; */
-}
+
 .selv{
-    /* border: 1px solid green; */
    height: 80vh;
    width: 100%;
    object-fit: cover;
@@ -36,26 +31,41 @@ body{
     font-size: 1.3rem;
     color: #fefdfb;
 }
+.selv .abet a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #f9990a;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+.selv .abet a:hover{
+    color: bisque;
+    background-color: #000000;
+}
 .selv .abet button{
+    font-size: 1.1rem;
     border: none;
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
+    background-color: #f9990a;
+}
+.selv .abet button:hover{
+    color: bisque;
+    background-color: #000000;
 }
 .ad {
-    /* background-color: #B1B5B9; */
     text-align: center;
     font-size: 1.8rem;
     color: #e1ddd6;
     font-weight: 800;
     height: 12vh;
-    /* margin-top: 5%; */
 }
 .ad h1{
     color: #dc8d05;
 }
 .about{
-    /* background-color: #B1B5B9; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -64,9 +74,7 @@ body{
     margin-top: 5%;
 }
 .about .bonding{
-    /* border: 1px solid white; */
     width: 700px;
-    /* height: 700px; */
 }
 .about .bonding h1{
     font-size: 2.5rem;
@@ -95,7 +103,6 @@ body{
     padding: 20px;
 }
 .about .bonding1{
-      /* border: 1px solid white; */
     width: 600px;
     height: 600px;
     animation-name: lay;
@@ -104,7 +111,6 @@ body{
     animation-iteration-count: infinite;
     animation-duration: 10.8s;
     background-position: center;
-    /* border-radius: 89% 11% 96% 4% / 17% 95% 5% 83%  ; */
     border-radius: 20px;
     
 }
@@ -157,7 +163,6 @@ body{
     text-align: center;
      font-size: 40px;
     align-items: center;
-    /* padding: 20px; */
      color: #000000;
 
 }
@@ -178,9 +183,7 @@ body{
 
 
 .latest .news{
-    /* background-color: #B1B5B9; */
     margin-top: 10%;
-    /* border: 1px solid blue; */
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -210,7 +213,6 @@ body{
 
  .mog .fat{
   background-color: rgba(0, 0, 0, 0.448);
-  /* height: 100%; */
   width: 100%;
   position: absolute;
   bottom: -100%;
@@ -219,7 +221,6 @@ body{
   transition: .5s;
 }
 .mog:hover .fat{
-    /* top: 10%; */
     bottom: 0%;
     transition: 0.5s;
 }
@@ -229,10 +230,8 @@ body{
     padding: 10px;
 }
 .latest .news .angel .fat p{
-    /* color: #3B0000; */
     color: #fefdfb;
         padding: 10px;
-    /* color: rgb(230, 228, 224); */
 }
 .latest .news .angel .fat a{
     border-radius: 20px;
@@ -252,9 +251,7 @@ body{
     text-align: center;
     color: #f9990a;
     align-content: center;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
+
 }
 .team h1{
     font-size: 3rem;
@@ -266,13 +263,11 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    /* gap: 5%; */
     margin-top: 10%;
     padding: 50px;
 
 }
 .classses .cla{
-    /* border: 1px solid white; */
     width: 400px;
     height: 550px;
     
@@ -310,7 +305,7 @@ body{
 .cardslider .card{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 .cardslider .card p {
@@ -350,7 +345,26 @@ body{
     font-size: 1rem;
     color: #fefdfb;
 }
+.about .bonding1 {
+    width: 600px;
+    height: 400px;
+    animation-name: lay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-duration: 10.8s;
+    background-position: center;
+    border-radius: 20px;
 }
+}
+
+
+
+
+
+
+
+
 @media all and (max-width:576px){
     .selv .abet {
     width: 300px;
@@ -394,7 +408,6 @@ body{
     font-size: 1.3rem;
 }
 .about .bonding1 {
-    /* border: 1px solid white; */
     width: 600px;
     height: 300px;
     padding: 20px;
@@ -404,8 +417,8 @@ body{
     animation-iteration-count: infinite;
     animation-duration: 10.8s;
     background-position: center;
-    /* border-radius: 89% 11% 96% 4% / 17% 95% 5% 83%; */
     border-radius: 20px;
 }
+
 
 }

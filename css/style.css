@@ -33,7 +33,8 @@ section .lohg h1{
     font-size: 2.5rem;
     font-weight: 800;
     font-family: "Poppins", sans-serif;
-    background-image: url("../image/fun5.jpg");
+    background: linear-gradient(-45deg, chocolate,  rgb(190, 238, 0), orange);
+
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text; 
@@ -67,6 +68,7 @@ section .lohg h1{
   display: inline-block;
   padding: 10px 0px;
   position: relative;
+  
 }
 section ul li a:hover{
     color: #E8FF77;
@@ -372,7 +374,7 @@ color: #ede205;
 }
 .cart-card a i{
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .cart-card a:hover{
@@ -413,8 +415,10 @@ clip-path: polygon(0 100%, 100% 4%, 0 0);
    text-align: center;
 }
 .caro a i{
-    margin-bottom: 50px;
-    margin-right: 40%;
+    margin-bottom: 30px;
+    margin-right: 60%;
+    text-align: center;
+    font-size: 26px;
    
 }
 
@@ -498,80 +502,6 @@ clip-path: polygon(0 100%, 100% 4%, 0 0);
 
 
 
-/* 
-.headlings{
-      background-color: #B1B5B9;
-      padding: 20px;
-      text-align: center;
-      font-size: 2rem;
-      color: #f69606;
-
-}
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 5%;
-    border-radius: 20px;
-    margin-top: 5%;
-    background-color: #B1B5B9;
-}
-.cards .card1{
-    width: 300px;
-    height: 500px;
-    border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 5%;
-    border-radius: 20px;
-    margin-top: 5%;
-}
-.cards .card1 .sild{
-    width: 300px;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
-    transition: .8s;
-}
-.cards .card1 .sild img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.cards .card1 .sild .world{
-    background-color: #00000043;
-    width: 100%;
-    position: absolute;
-    bottom: -100%;
-    text-align: center;
-     transition: 0.8s;
-}
-.sild:hover .world{
-    top: 50%;
-}
-.cards .card1 .sild:hover{
-    opacity: 3s;
-}
-
-.cards .card1 .sild .world a i{
-    font-size: 2rem;
-    color: #f69606;
-}
-.cards .card1 .foot{
-    height: 100px;
-}
-.cards .card1 .foot p{
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
-}
-
-
-
-
- */
 
 
 
@@ -889,12 +819,21 @@ footer .lohg h1{
     font-size: 3rem;
     font-weight: 800;
     font-family: "Poppins", sans-serif;
-    background-image: url("../image/fun5.jpg");
+      background: linear-gradient(-45deg, chocolate,  rgb(190, 238, 0), orange);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text; 
     padding: 20px;
 
+}
+footer .bexes p a{
+    font-size: 1rem;
+    color: white;
+    /* padding: 10px; */
+    text-decoration: none;
+}
+footer .bexes p a:hover{
+    color:chocolate ;
 }
 
 footer .bexes p{
@@ -947,6 +886,16 @@ footer .bexes h1{
      height: 200px;
     position: relative;
     overflow: hidden;
+}
+.btn{
+    display: none;
+}
+.cardslider .card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 500px;
 }
 
 }
